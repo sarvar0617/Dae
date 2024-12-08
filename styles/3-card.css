@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    background-image: url('../images/image\ 3.png'); /* Rasmni manzilini ko'rsating */
+    background-size: cover; /* Rasmni to'liq ekranga to'ldiradi */
+    background-position: center; /* Rasmni markazga joylashtiradi */
+    background-repeat: no-repeat; /* Rasmni takrorlashni o'chiradi */
+    height: 100vh; /* Butun ekran balandligini egallaydi */
+    display: flex; /* Matnni markazlashtirish uchun */
+    justify-content: center; /* Gorizontal markazlashtirish */
+    align-items: center; /* Vertikal markazlashtirish */
+    color: white; /* Matnni oq rangda ko'rsatadi */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #DF9B7A;
+    height: 100px;
+    align-items: center;
+    margin-top: 320px;
+}
